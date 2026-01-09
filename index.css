@@ -1,0 +1,53 @@
+body {
+    margin-top: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+@font-face {
+    font-family: 'CursedTimerULiL'; 
+    src: url('CursedTimerUlil-Aznm.ttf'); 
+}
+
+.container {
+    display: flex;
+    width: 500px;
+    justify-content: space-around;
+    background: #1B244A;
+    padding: 16px 8px 16px 8px;
+    border-radius: 20px;
+    border: 8px solid black;
+
+}
+
+.teams {
+    font-family: Verdana;
+    font-size: 40px;
+    text-align: center;
+    color: #EEEEEE;
+    margin-top: 10px;
+}
+
+.counterDeco {
+    border-radius: 5px;
+    background: #080001;
+    font-family: CursedTimerULiL;
+    font-weight: 400;
+    font-size: 90px;
+    color: #F94F6D;
+    justify-items: center;
+    margin: -20px 0px 20px 0px;
+    padding: 10px 50px 5px 50px;
+}
+
+button {
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    font-family: CursedTimerULiL;
+    padding: 9px;
+    font-size: 18px;
+    background-color: #1B244A;
+    color: #9AABD8;
+}
